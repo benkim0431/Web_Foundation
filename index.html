@@ -1,0 +1,117 @@
+<!-- Hyungbum Kim 8132953-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, YunaKim, figure, skating, medalist">
+    <meta name="description" content="This website is about Yuna Kim, Korean figure skating gold medalist">
+    <title>Figure Skating Athlete, Yuna Kim </title>
+</head>
+
+<body>
+    <!-- This is the header-->
+    <header>
+        <!--Heading-->
+        <h1>Yuna Kim</h1>
+    </header>
+    <!-- This is the main -->
+    <main>
+        <section id="biography">
+            <h2>Biography</h2>
+            <blockquote cite="https://en.wikipedia.org/wiki/Yuna_Kim">
+                <strong>Yuna Kim</strong> is the first South Korean figure skater to win a medal at an <i>ISU Junior
+                    Grand Prix</i> or <i>ISU Grand Prix of Figure Skating</i> event, the <i>World Figure Skating
+                    Championships</i>, and the <i>Olympic Games</i>. She is the first female skater ever to win every
+                major international competition, namely, the Olympic Games, the World Championships, the Four Continents
+                Championships, and the Grand Prix Final. She is also the first figure skater ever to complete a Super
+                Slam, having won every major senior and junior competition. She is one of the most highly recognized
+                athletes and media figures in South Korea. As a result of her numerous accomplishments and popularity,
+                she is frequently referred to as <mark>"Queen Yuna"</mark>.
+            </blockquote>
+        </section>
+        <section id="figure">
+            <h2>Figure</h2>
+            <figure>
+                <img src="images/YunaKim.jpeg" alt="Kim Yuna, who won the gold medal.">
+                <figcaption>Gold medalist Yuna Kim</figcaption>
+            </figure>
+        </section id="quotes">
+        <h2>Quotes</h2>
+        <q cite="https://www.brainyquote.com/authors/kim-yuna-quotes">Even in the hardest circumstances, dreams can give
+            you the courage to live, and I hope I can share that message with children in need.</q>
+        <cite>Yuna Kim</cite>
+        <section id="video">
+            <h2>Video</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/qOLyPPDD1Ao?si=SpdkqXO2AK9NQY1Z"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+    </main>
+    <!-- This is aside -->
+    <aside>
+        <section id="ulist">
+            <h2>Figure Skating International Competition</h2>
+            <ul>
+                <li><a href="https://www.isu.org/figure-skating/events/grand-prix-of-figure-skating" target="_blank"
+                        title="ISU's Webpage">ISU Grand Prix of Figure Skating</a></li>
+                <li><a href="https://montreal2024.com/" target="_blank"
+                        title="2024 World Figure Skating Championships' Webpage">World Figure Skating Championships</a>
+                </li>
+                <li><a href="https://olympics.com/en/" target="_blank" title="2024 Olympic Games' webpage">Olympic
+                        Games</a></li>
+            </ul>
+        </section>
+
+        <section id="forms">
+            <h2>Contact Form</h2>
+            <form method="post" action="contact.php" name="contact_us" id="contact_us" autocomplete="off">
+                <div>
+                    <fieldset>
+                        <legend>Personal Information</legend>
+                        <div>
+                            <label for="name" class="form-label">Name: </label>
+                            <input type="text" name="name" id="name" autofocus placeholder="Name..." class="form-control">
+                        </div>
+                        <div>
+                            <label for="email" class="form-label">Email: </label>
+                            <input type="email" name="email" id="email" required class="form-control"><br>
+                        </div>
+                        <div>
+                            <label for="tel" class="form-label">Phone: </label>
+                            <input type="tel" name="tel" id="tel" class="form-control"><br>
+                        </div>
+                        <div>
+                            <label for="gender" class="form-label">Gender: </label>
+                            <select name="gender" id="gender">
+                                <option selected value="">Select option</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <hr>
+                        <label for="message" class="form-label">Message</label><br>
+                        <textarea name="message" id="message" cols="50" rows="5"></textarea>
+                    </fieldset>
+                </div>
+                <br>
+                <div>
+                    <button type="submit" name="submit">Submit</button>
+                </div>
+            </form>
+
+        </section>
+
+    </aside>
+    <!-- This is footer -->
+    <footer>
+        <p>Copyright &copy;</p>
+    </footer>
+
+
+</body>
+
+</html>
