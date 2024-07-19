@@ -1,0 +1,193 @@
+/* Hyungbum Kim 8132953 */
+
+html{
+    /* font-style: normal;
+    font-variant: small-caps;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: 'Georgia',  Arial, sans-serif; */
+    font: normal normal 700 20px/1.5 'Georgia',  Arial, sans-serif;
+    background-color: #f0f8ff;
+}
+
+body{
+    max-width: 1200px;
+}
+
+main{
+    width: 70%;
+    float: left;
+}
+
+aside{
+    width: 30%;
+    float: right;
+}
+
+footer{
+    clear: both;
+}
+
+#biography{
+    width: 50%;
+    float: left;
+}
+
+#image{
+    width: 50%;
+    float: right;
+}
+
+#quotes{
+    clear: both;
+}
+
+header, footer{
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+footer {
+    font-size: 0.8em;
+}
+
+main h2{
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    font-family: "Verdana", Arial, sans-serif;
+    color: #0056b3;
+    text-align: center;
+}
+
+aside h2{
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    font-family: "Verdana", Arial, sans-serif;
+    color: #0056b3;
+    text-align: center;
+}
+
+#quotes {
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    font-family: "Dancing Script", Arial, sans-serif;
+    color: #1e90ff;
+    border: 0.25rem solid #0056b3;
+    box-shadow: .5rem .5rem .25rem grey;
+}
+
+figure{
+    padding : 0.25rem;
+    border: 0.25rem solid #0056b3;
+    text-align: center;
+    border-radius: 2rem;
+    background-color: whitesmoke;
+}
+figure img{
+    margin: 1rem;
+    width : 90%;
+    height : 90%;
+    display : block;
+    margin : auto;
+    border : 0.25rem solid #0056b3;
+    border-radius: 2rem;
+}
+
+figure > figcaption {
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    font-family: "Dancing Script", Arial, sans-serif;
+    color: #0056b3;
+}
+
+#video{
+    text-align: center;
+}
+
+#video iframe{
+    border : 0.25rem solid #0056b3;
+    border-radius: 2rem;
+}
+
+ul{
+    list-style-type: none;    
+    line-height: 1.5rem;
+}
+
+ul a {
+    color: #1e90ff;
+}
+
+a:link{ 
+    text-decoration:none;
+}
+
+a:hover{
+    color: gray;
+    text-decoration: none;
+}
+
+form{
+    border-style: none; 
+}
+
+.submit-button{
+    text-align: left;
+    padding: 0.5em 1em;
+}
+
+form fieldset{
+    border: none;
+}
+
+form legend{
+    color:#1e90ff;
+    font-variant: small-caps;
+    font-weight: bold;
+    display: block;
+}
+
+form label{
+    color:#1e90ff;
+    font-variant: small-caps;
+    font-weight: bold;
+    display: block;
+}
+
+form input, textarea, button{
+    width: 80%;
+}
+
+
+@media (max-width : 600px) {
+    html{
+        font-size : 15px;
+    }
+    #biography{
+        float : none;
+        width : 100%;
+    }
+    #image{
+        float : none;
+        width : 100%;
+        margin: auto;
+        text-align: center;
+    }
+    main{
+        float : none; 
+        width : 95%;
+    }
+    aside{
+        float : none;
+        width : 95%;
+        text-align: center;
+    }
+}
