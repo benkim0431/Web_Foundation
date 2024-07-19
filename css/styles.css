@@ -13,6 +13,11 @@ html{
 
 body{
     max-width: 1200px;
+    width : 100%;
+    /*center the body in the html element*/
+    margin : auto;
+
+    height: 100%;
 }
 
 main{
